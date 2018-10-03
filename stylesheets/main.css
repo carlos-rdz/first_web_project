@@ -138,31 +138,34 @@ media queries
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center
+        align-items: center;
         
-    
-     
-    
+        margin-top: 25px;
+        margin-bottom: 25px;
+        
+        
+        
     }
     .about-me > div{
-        /* outline: 1px solid red */
+        
         
     }
     .profile-image{
         
-        
-        width: 400px
-        
+    }
+    
+    .profile-image img{
+        width: 150px;
+        margin: 0
     }
     .about-me-header{
-        /* width: 20%; */
-        margin: 0;
-        padding: 0;
-        
+        margin-left: 30px;
+        margin-right: 30px
     }
+    
     .about-me-text{
-        
-        /* width: 60%; */
+        /* width: 50% */
+    
     }
     
 }
