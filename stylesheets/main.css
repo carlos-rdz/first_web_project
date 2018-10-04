@@ -106,12 +106,35 @@ body
     min-width: 100%;
     
     color: ghostwhite;
-    opacity: .5;    
+    opacity: .5;  
+    
+    display: flex;
+    flex-direction: column
     
 }
+
+.social-media{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* outline: 1px solid red */
+
+
+
+
+}
+
+.social-media i{
+    font-size: 40px;
+    margin: 0 0 20px 0
+
+}
+
+
 .copyright-text{
     
-    display: flex
+    display: block;
+    
     
 }
 
