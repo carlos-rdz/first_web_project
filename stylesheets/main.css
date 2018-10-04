@@ -122,15 +122,22 @@ body
 
 
 
+
 }
 
 .social-media i{
     font-size: 40px;
-    margin: 0 0 20px 0
+    margin: 0 0 20px 0;
+    color: ghostwhite
 
 }
 
+.social-media a:hover,
+.social-media i:hover{
 
+    color: aqua
+
+}
 .copyright-text{
     
     display: block;
