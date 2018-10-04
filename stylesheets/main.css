@@ -1,3 +1,20 @@
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+
+
+
+
 html {
 box-sizing: border-box
 
@@ -129,23 +146,26 @@ body
     font-size: 40px;
     margin: 10px 0 20px 0;
     color: ghostwhite;
-    transition: all .5s ease-in-out;
-
+    /* transition: all .5s ease-in-out; */
 }
 
 .social-media a:hover,
 .social-media i:hover{
-
+    
     color: aqua;
-    transform: scale(1.2);
-
+    /* transform: scale(1.2); */
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    /* animation-timing-function: ease-in-out; */
+    /* animation-iteration-count: infinite */
 }
 
 .social-media a:active,
 .social-media i:active{
 
     color: aqua;
-    transform: scale(2.0)
+    /* transform: scale(2.0) */
 
 }
 .copyright-text{
