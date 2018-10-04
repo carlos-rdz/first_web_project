@@ -124,18 +124,28 @@ body
 
 
 }
-
+.social-media a,
 .social-media i{
     font-size: 40px;
-    margin: 0 0 20px 0;
-    color: ghostwhite
+    margin: 10px 0 20px 0;
+    color: ghostwhite;
+    transition: all .5s ease-in-out;
 
 }
 
 .social-media a:hover,
 .social-media i:hover{
 
-    color: aqua
+    color: aqua;
+    transform: scale(1.2);
+
+}
+
+.social-media a:active,
+.social-media i:active{
+
+    color: aqua;
+    transform: scale(2.0)
 
 }
 .copyright-text{
