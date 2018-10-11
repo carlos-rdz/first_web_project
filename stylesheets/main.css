@@ -12,12 +12,6 @@
 }
 
 
-
-
-
-
-
-
 html {
 box-sizing: border-box
 
@@ -30,7 +24,6 @@ box-sizing: border-box
 html, body{
 padding: 0px;
 margin: 0px;
-/* set margin and padding to stretch to browser window */
 }
 
 body
@@ -75,7 +68,6 @@ body
     color: darkturquoise;
 
 }
-
 .hero-image
 {
     /* becasue image is in diffrent folder you must use .. before / */
@@ -188,10 +180,6 @@ body
     
     
 }
-
-
-
-
 
 /* 
 Response web design implementations
